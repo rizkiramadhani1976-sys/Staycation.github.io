@@ -1,0 +1,182 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divutama {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.div1-judul {
+  text-align: center;
+}
+
+.stay {
+  color: blue;
+}
+
+.div2-step {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#line {
+  background-color: silver;
+  width: 50px;
+  height: 2px;
+}
+
+#atau {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 200px;
+  left: 255px;
+}
+
+#atau div {
+  color: silver;
+}
+
+.a1 {
+  color: black;
+  text-decoration: none;
+}
+
+.a2 {
+  color: silver;
+  text-decoration: none;
+}
+
+.div3-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#h1-information {
+  color: rgb(0, 0, 92);
+  margin-bottom: auto;
+}
+
+#deskripsi-information {
+  margin-top: 10px;
+  color: silver;
+  font: caption;
+}
+
+.utama {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 5.1rem;
+  margin-top: 2rem;
+}
+
+#left {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#judul {
+  color: rgb(0, 0, 92);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#descripsi1 {
+  color: silver;
+  margin-top: 4px;
+}
+
+#descripsi2 {
+  color: rgb(0, 0, 92);
+}
+
+#line-utama {
+  background-color: silver;
+  width: 1.9px;
+  height: 23rem;
+  margin-top: 0%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.nama-form {
+  color: rgb(0, 0, 92);
+  margin-bottom: 5px;
+}
+
+.isi-form {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f8f9fc;
+  outline: none;
+  width: 20rem;
+  margin-bottom: 1.5rem;
+}
+
+.isi-form::placeholder {
+  color: silver;
+}
+
+.container-tombol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#tombol1 {
+  background-color: rgb(58, 58, 255);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 2.5rem;
+  font-size: large;
+  border-radius: 5px;
+}
+
+#tombol1:hover {
+  background-color: darkblue;
+}
+
+#tombol2 {
+  background-color: #cacaca;
+  color: rgb(144, 144, 144);
+  width: 15rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: large;
+  border-radius: 5px;
+}
+
+#tombol2:hover {
+  background-color: red;
+  color: rgb(255, 119, 119);
+  font-size: larger;
+  font: bold;
+}
